@@ -280,7 +280,9 @@ a button {
   border-color: #d6d6d6;
 }
 
-
+.form-group{
+  margin-bottom:20px;
+}
 .avatar-upload .avatar-preview {
   width: 192px;
   height: 192px;
