@@ -45,7 +45,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="#">হোম</a>
               </li>
               <li class="nav-item">
@@ -107,23 +107,26 @@
     <!-- Slider End -->
 
     <!-- Search From Start -->
-    <div style="background-color: #f5f5f5; padding: 10px">
+    <div style="background-color: #f5f5f5; padding: 20px">
+      <div class="row justify-content-center align-item-center">
+        <div
+          class="col-12 col-sm-8 col-md-6 col-lg-4"
+          style="margin-bottom: 20px"
+        >
       <div
         class="card container"
         style="
-          width: 50vh;
-          margin-top: 20px;
-          background-color: #ed5565;
           padding: 20px;
+          background-color: #ed5565;
           border-radius: 10px;
           box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
             0 12px 17px 2px rgba(0, 0, 0, 0.14),
             0 5px 22px 4px rgba(0, 0, 0, 0.12);
         "
       >
-        <div class="row" ,>
-          <div class="col-sm">যেমন বায়োডাটা খুঁজছি</div>
-          <div class="col-sm">
+        <div class="row justify-content-md-center" style="padding-bottom: 20px;">
+          <div class="col-sm col-lg-6">যেমন বায়োডাটা খুঁজছি</div>
+          <div class="col-sm col-lg-6">
             <select class="form-select" aria-label="Default select example">
               <option value="1" selected>সব বায়োডাটা</option>
               <option value="2">পাত্রের বায়োডাটা</option>
@@ -131,10 +134,9 @@
             </select>
           </div>
         </div>
-        <br />
-        <div class="row">
-          <div class="col-sm">যেমন বৈবাহিক অবস্থা খুঁজছি</div>
-          <div class="col-sm">
+        <div class="row justify-content-md-center" style="padding-bottom: 20px;">
+          <div class="col-sm col-lg-6">যেমন বৈবাহিক অবস্থা খুঁজছি</div>
+          <div class="col-sm col-lg-6">
             <select class="form-select" aria-label="Default select example">
               <option value="1" selected>সকল ধরনের</option>
               <option value="2">বিবাহিত</option>
@@ -145,10 +147,9 @@
             </select>
           </div>
         </div>
-        <br />
-        <div class="row">
-          <div class="col-sm">যে জেলায় খুঁজছেন</div>
-          <div class="col-sm">
+        <div class="row justify-content-md-center" style="padding-bottom: 20px;">
+          <div class="col-sm col-lg-6">যে জেলায় খুঁজছেন</div>
+          <div class="col-sm col-lg-6">
             <select class="form-select" aria-label="Default select example">
               <option value="1" selected>সকল জেলা</option>
               <option value="2">ঢাকা</option>
@@ -159,16 +160,17 @@
             </select>
           </div>
         </div>
-        <br />
-        <div style="text-align: right">
+        <div style="text-align: right; padding-bottom: 20px;" >
           <button
             type="button"
             class="btn btn-success"
             style="font-weight: bold"
           >
-            বায়োডাটা খুঁজুন
+          <a class="bioDataButton" href="./otherPages/filter.html">বায়োডাটা খুঁজুন</a>
           </button>
         </div>
+      </div>
+      </div>
       </div>
     </div>
     <!-- Search From End -->
@@ -177,8 +179,7 @@
       <div style="padding: 20px">
         <button
           type="button"
-          class="btn btn-info"
-          style="padding: 20px; color: white; font-weight: bold; width: 300px"
+          class="btn btn-info bioDataButton"
         >
           <a href="./otherPages/form/name.html">চলুন বায়োডাটা তৈরী করি</a>
         </button>
@@ -198,8 +199,8 @@
 
     <!-- Quantity of Bio Showcase Start-->
     <div class="container" id="counter" style="margin-top: 20px">
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
+      <div class="row justify-content-md-center">
+        <div class="col-sm col-lg-2-6 col-md-3">
           <div class="card mb-3">
             <img
               class="card-img-top img-fluid"
@@ -217,7 +218,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm col-lg-2-6 col-md-3">
           <div class="card mb-3">
             <!-- set a width on the image otherwise it will expand to full width       -->
             <img
@@ -236,7 +237,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm col-lg-2-6 col-md-3">
           <div class="card mb-3">
             <img
               class="card-img-top img-fluid"
@@ -254,7 +255,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm col-lg-2-6 col-md-3">
           <div class="card mb-3">
             <!-- set a width on the image otherwise it will expand to full width       -->
             <img
@@ -379,6 +380,13 @@
           a = 1;
         }
       });
+
+      var activeNavItem = $('.nav-item');
+
+activeNavItem.click(function(){
+  activeNavItem.removeClass('active');
+  $(this).addClass('active');  
+});
     </script>
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
   </body>
