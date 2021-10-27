@@ -303,6 +303,7 @@ a button {
   max-height: 400px;
   text-align: center;
 }
+
 .bioCard:hover{
             transform: translateX(10px);
             box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
@@ -323,4 +324,14 @@ a button {
 }
 .bioDataButton:hover{
   color: #fff;
+}
+.fullBioProfileCard{
+  max-height: 400px;
+  text-align: center;
+}
+
+.fullBioProfileCard img{
+  height: 170px;
+  border-radius: 50%;
+  margin:10px 0px 10px 0px;
 }
