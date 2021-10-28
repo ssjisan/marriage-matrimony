@@ -5,7 +5,13 @@ body {
     border-bottom: 2px solid red;
     color: red;
 }
-
+.allCard{
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 
+  0 12px 17px 2px rgba(0, 0, 0, 0.14),
+   0 5px 22px 4px rgba(0, 0, 0, 0.12);
+}
 .quote {
   background-image: url("../Images/quoteBG.jpg");
   min-height: 400px;
@@ -334,4 +340,8 @@ a button {
   height: 170px;
   border-radius: 50%;
   margin:10px 0px 10px 0px;
+}
+.paymentPageCard{
+  max-height: 400px;
+  text-align: center;
 }
