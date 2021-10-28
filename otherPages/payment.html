@@ -88,9 +88,7 @@
    
     <!-- Payment Form Start -->
     <div class="container" style="padding: 20px; max-width: 800px" >
-        <!------------------------------পারিবারিক তথ্য Start  ---------------------->
-    
-              <div class="" style="margin-bottom: 20px" > 
+ <div class="" style="margin-bottom: 20px" > 
                 <div class="card container allCard">
                 <form>
                     <div class="col-sm">
@@ -121,7 +119,72 @@
                             placeholder="বিষয়"
                           />
                         </div>
-                        
+                        <div class="form-group">
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <p style="text-align:center;">কত সংখ্যক বায়োডাটার যোগাযোগের তথ্য চাচ্ছেন?
+                              </p>  
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr style="text-align:center">
+                              <th scope="row">বায়োডাটার সংখ্যা
+                              </th>
+                              <th scope="row">সর্বমোট মূল্য
+                              </th>
+                            </tr>
+                            <tr style="text-align:center">
+                              <td>
+                                <input
+                                  type="number"
+                                  class="form-control"
+                                  id="numberOfBio"
+                                  onkeyup="paymentAmount()"
+                                  placeholder="বায়োডাটার সংখ্যা"
+                                /></td>
+                                <td id="amount">
+                                </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="form-group">
+                        <h6>যেকোন একটি মাধ্যমে পেমেন্ট করুন
+                        </h6>
+                        <table class="table table-striped">
+                          <thead>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="exampleRadios" id="bkash" value="option1" checked>
+                                  <label class="form-check-label" for="exampleRadios1">
+                                    বিকাশ
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="exampleRadios" id="rocket" value="option2">
+                                  <label class="form-check-label" for="exampleRadios2">
+                                      রকেট
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="exampleRadios" id="nagad" value="option3">
+                                  <label class="form-check-label" for="exampleRadios3">
+                                     নগদ
+                                  </label>
+                                </div>
+                              </td>
+                              <td id="amount">
+                                  ওকে
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      
+                    </div>
                         <a href="./address.html"><button
                           type="button"
                           class="btn btn-info"
@@ -167,6 +230,13 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function paymentAmount() {
+        var number = document.getElementById("numberOfBio").value;
+        console.log(number);
+        document.getElementById("amount").innerHTML = number*100 + " " + "taka";
+      }
+    </script>
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
   </body>
 </html>
