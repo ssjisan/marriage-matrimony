@@ -1,10 +1,6 @@
 body {
   font-family: "Hind Siliguri", sans-serif;
 }
-#navbarSupportedContent .nav-item.active a{
-    border-bottom: 2px solid red;
-    color: red;
-}
 .allCard{
   padding: 20px; 
   border-radius: 10px; 

@@ -1,0 +1,52 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+#navbarSupportedContent .nav-item a {
+  color: #9d9d9d;
+  font-weight: 400;
+  font-size: 16px;
+}
+#navbarSupportedContent .nav-item.active a {
+  color: #f1458d;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navbar {
+  background-color: transparent;
+  border-color: transparent;
+  min-height: 80px;
+  height: 80px;
+}
+.nav-button-set {
+  display: flex;
+  gap: 16px;
+}
+.nav-button-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 4px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f1458d;
+}
+.nav-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 4px;
+  height: 36px;
+  background: #f1458d;
+  border: 1px solid #f1458d;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
