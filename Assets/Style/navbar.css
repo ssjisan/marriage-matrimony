@@ -1,6 +1,15 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+#navigation {
+  z-index: 9999;
+  transition: 0.5s;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
 #navbarSupportedContent .nav-item a {
   color: #9d9d9d;
   font-weight: 400;
@@ -14,8 +23,6 @@ body {
 .navbar {
   background-color: transparent;
   border-color: transparent;
-  min-height: 80px;
-  height: 80px;
 }
 .nav-button-set {
   display: flex;
