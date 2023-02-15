@@ -17,6 +17,16 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- Owl Carousel Start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- Owl Carousel End -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="Assets/Style/navbar.css" />
     <link rel="stylesheet" href="Assets/Style/hero-section.css" />
@@ -54,10 +64,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./otherPages/blog.html">FqA</a>
+                <a class="nav-link" href="./otherPages/blog.html">FaQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./otherPages/fnq.html">COntact</a>
+                <a class="nav-link" href="./otherPages/fnq.html">Contact</a>
               </li>
             </ul>
             <div class="nav-button-set">
@@ -84,12 +94,35 @@
         </p>
       </div>
       <div class="slider-section">
-        <div class="slider-image-container">
-          <img
-            src="Assets/Images/home-page/hero-section/hero-slider-01.jpg"
-            height="456"
-            width="100%"
-          />
+        <div class="owl-carousel owl-theme" style="border-radius: 16px; overflow: hidden;">
+          <div class="slider-image-container item">
+            <img
+              src="Assets/Images/home-page/hero-section/hero-slider-01.jpg"
+              height="456"
+              width="100%"
+            />
+          </div>
+          <div class="slider-image-container item">
+            <img
+              src="Assets/Images/home-page/hero-section/hero-slider-02.jpg"
+              height="456"
+              width="100%"
+            />
+          </div>
+          <div class="slider-image-container item">
+            <img
+              src="Assets/Images/home-page/hero-section/hero-slider-03.jpg"
+              height="456"
+              width="100%"
+            />
+          </div>
+          <div class="slider-image-container item">
+            <img
+              src="Assets/Images/home-page/hero-section/hero-slider-04.jpg"
+              height="456"
+              width="100%"
+            />
+          </div>
         </div>
         <div class="slider-arrow">
           <div class="arrows">
@@ -97,11 +130,13 @@
               src="Assets/Images/logos-icons/icons/left.svg"
               width="32px"
               height="32px"
+              class="owl-carousel__prev arrow"
             />
             <img
               src="Assets/Images/logos-icons/icons/right.svg"
               width="32px"
               height="32px"
+              class="owl-carousel__next arrow"
             />
             <img />
           </div>
@@ -357,58 +392,43 @@
     </div>
     <!-- Footer End -->
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!--------------------  Bootstrap Javascript Start -------------------->
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--------------------  Bootstrap Javascript End -------------------->
+
+    <!--------------------  Jquery CDN Start -------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!--------------------  Jquery CDN End -------------------->
+    <!-- Carousel Start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-      var a = 0;
-      $(window).scroll(function () {
-        var oTop = $("#counter").offset().top - window.innerHeight;
-        if (a == 0 && $(window).scrollTop() > oTop) {
-          $(".counter-value").each(function () {
-            var $this = $(this),
-              countTo = $this.attr("data-count");
-            $({
-              countNum: $this.text(),
-            }).animate(
-              {
-                countNum: countTo,
-              },
-
-              {
-                duration: 1200,
-                easing: "swing",
-                step: function () {
-                  $this.text(Math.floor(this.countNum));
-                },
-                complete: function () {
-                  $this.text(this.countNum);
-                },
-              }
-            );
-          });
-          a = 1;
-        }
-      });
-
-      var activeNavItem = $(".nav-item");
-
-      activeNavItem.click(function () {
-        activeNavItem.removeClass("active");
-        $(this).addClass("active");
+      $(document).ready(function () {
+        const owl = $(".owl-carousel");
+        owl.owlCarousel({
+          loop: true,
+          margin: 5,
+          nav: false,
+          items: 1,
+          dots: false,
+        });
+        $(".owl-carousel__next").click(() => owl.trigger("next.owl.carousel"));
+        $(".owl-carousel__prev").click(() => owl.trigger("prev.owl.carousel"));
       });
     </script>
-    <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
+    <!-- Carousel End -->
   </body>
 </html>
