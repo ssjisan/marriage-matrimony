@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+
 #navbarSupportedContent .nav-item.active a {
   color: #f1458d;
   font-weight: 600;
@@ -23,6 +24,10 @@ body {
 .navbar {
   background-color: transparent;
   border-color: transparent;
+}
+.navbar-nav{
+  display: flex;
+  gap: 24px;
 }
 .nav-button-set {
   display: flex;
