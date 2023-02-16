@@ -29,8 +29,12 @@
     <!-- Owl Carousel End -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="Assets/Style/navbar.css" />
-    <link rel="stylesheet" href="Assets/Style/hero-section.css" />
-    <link rel="icon" type="image/x-icon" href="Assets/Images/logos-icons/favicon.ico">
+    <link rel="stylesheet" href="Assets/Style/home.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Assets/Images/logos-icons/favicon.ico"
+    />
     <title>Other Half | Home</title>
   </head>
   <body>
@@ -44,15 +48,16 @@
             height="40px"
           />
           <button
-            class="navbar-toggler"
-            type="button"
+            class="navbar-toggler shadow-none"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -78,7 +83,7 @@
               <button type="button" class="nav-button-login">
                 <img src="Assets/Images/logos-icons/icons/profile.svg" />Login
               </button>
-              <button type="button" class="nav-button">
+              <button type="button" class="nav-button-resigter">
                 Register for free
               </button>
             </div>
@@ -98,7 +103,10 @@
         </p>
       </div>
       <div class="slider-section">
-        <div class="owl-carousel owl-theme" style="border-radius: 16px; overflow: hidden;">
+        <div
+          class="owl-carousel owl-theme"
+          style="border-radius: 16px; overflow: hidden"
+        >
           <div class="slider-image-container item">
             <img
               src="Assets/Images/home-page/hero-section/hero-slider-01.jpg"
@@ -257,86 +265,58 @@
     </div>
     <!-- Bio data Maker End -->
 
-    <!-- Quantity of Bio Showcase Start-->
-    <div class="container" id="counter" style="margin-top: 20px">
-      <div class="row justify-content-md-center">
-        <div class="col-sm col-lg-2-6 col-md-3">
-          <div class="card mb-3">
-            <img
-              class="card-img-top img-fluid"
-              src="./Images/totalAll.png"
-              alt="Card image cap"
-              style="width: 200px; margin: auto"
-            />
-            <div class="card-body">
-              <h2 class="card-title" style="text-align: center">
-                <span class="counter-value" data-count="2100">0</span> +
-              </h2>
-              <h5 class="card-text" style="text-align: center">
-                সর্বমোট বায়োডাটা আছে
-              </h5>
+    <!-- Matrix Start-->
+    <div class="container matrix" id="counter">
+      <div class="matrix-content">
+        <p class="matrix-title">
+          Join the 1,000+ Successful Couples Who Met on Our Matrimony Website
+        </p>
+        <p class="matrix-subtitle">
+          Discover Why Our Matrimony Website is the Key to a Successful Marriage
+        </p>
+      </div>
+      <div class="matrix-counter">
+        <div class="row">
+          <div class="col-md-3 matrix-card">
+            <div class="matrix-icon-container">
+              <img src="Assets/Images/logos-icons/icons/total.svg" />
+            </div>
+            <div class="counter-content">
+              <p class="matrix-number">1,000+</p>
+              <p class="matrix-context">Total Biodata</p>
             </div>
           </div>
-        </div>
-        <div class="col-sm col-lg-2-6 col-md-3">
-          <div class="card mb-3">
-            <!-- set a width on the image otherwise it will expand to full width       -->
-            <img
-              class="card-img-top img-fluid"
-              src="./Images/man.png"
-              alt="Card image cap"
-              style="width: 200px; margin: auto"
-            />
-            <div class="card-body">
-              <h2 class="card-title" style="text-align: center">
-                <span class="counter-value" data-count="1250">0</span> +
-              </h2>
-              <h5 class="card-text" style="text-align: center">
-                মোট পাত্রের বায়োডাটা আছে
-              </h5>
+          <div class="col-md-3 matrix-card">
+            <div class="matrix-icon-container">
+              <img src="Assets/Images/logos-icons/icons/groom.svg" />
+            </div>
+            <div class="counter-content">
+              <p class="matrix-number">1,000+</p>
+              <p class="matrix-context">Total Groom's Biodata</p>
             </div>
           </div>
-        </div>
-        <div class="col-sm col-lg-2-6 col-md-3">
-          <div class="card mb-3">
-            <img
-              class="card-img-top img-fluid"
-              src="./Images/woman.png"
-              alt="Card image cap"
-              style="width: 200px; margin: auto"
-            />
-            <div class="card-body">
-              <h2 class="card-title" style="text-align: center">
-                <span class="counter-value" data-count="850">0</span> +
-              </h2>
-              <h5 class="card-text" style="text-align: center">
-                মোট পাত্রীর বায়োডাটা আছে
-              </h5>
+          <div class="col-md-3 matrix-card">
+            <div class="matrix-icon-container">
+              <img src="Assets/Images/logos-icons/icons/bride.svg" />
+            </div>
+            <div class="counter-content">
+              <p class="matrix-number">1,000+</p>
+              <p class="matrix-context">Total Bride's Biodata</p>
             </div>
           </div>
-        </div>
-        <div class="col-sm col-lg-2-6 col-md-3">
-          <div class="card mb-3">
-            <!-- set a width on the image otherwise it will expand to full width       -->
-            <img
-              class="card-img-top img-fluid"
-              src="./Images/totalDone.png"
-              alt="Card image cap"
-              style="width: 200px; margin: auto"
-            />
-            <div class="card-body">
-              <h2 class="card-title" style="text-align: center">
-                <span class="counter-value" data-count="35">0</span> +
-              </h2>
-              <h5 class="card-text" style="text-align: center">
-                সর্বমোট সফল সমাপ্তি
-              </h5>
+          <div class="col-md-3 matrix-card">
+            <div class="matrix-icon-container">
+              <img src="Assets/Images/logos-icons/icons/success.svg" />
+            </div>
+            <div class="counter-content">
+              <p class="matrix-number">1,000+</p>
+              <p class="matrix-context">Total Successful Marriages</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Quantity of Bio Showcase End --->
+    <!-- Matrix End --->
 
     <!-- Quate Start -->
     <div style="background-color: #eee" class="quote">
