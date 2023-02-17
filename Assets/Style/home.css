@@ -55,7 +55,113 @@
 .arrow {
   cursor: pointer;
 }
-/* reate-bio start */
+/******* How-it-work start *******/
+.how-it-work {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.how-it-work-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.how-it-work-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #23262f;
+}
+.how-it-work-subtitle {
+  width: 380px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #777e90;
+}
+.how-it-work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 8px;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(241, 69, 141, 0.05);
+  border-radius: 12px;
+  transition: 0.5s ease-in-out;
+}
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+}
+.how-it-work-card:hover {
+  box-shadow: none;
+}
+.create {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #d7f0e0 0%,
+    rgba(215, 240, 224, 0) 100%
+  );
+  transition: 0.5s ease-in-out;
+}
+.search {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #f5e9e5 0%,
+    rgba(245, 233, 229, 0) 100%
+  );
+  transition: 0.5s ease-in-out;
+}
+.contact {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #f2dde8 0%,
+    rgba(242, 221, 232, 0) 100%
+  );
+  transition: 0.5s ease-in-out;
+}
+.marriage {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #eadbff 0%,
+    rgba(234, 219, 255, 0) 100%
+  );
+  transition: 0.5s ease-in-out;
+}
+.process-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+.process-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  color: #23262f;
+}
+.process-subtitle {
+  width: 245px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #777e90;
+}
+/******* How-it-work start *******/
+/* Create-bio start */
 .create-bio {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -116,7 +222,7 @@
   background: transparent;
   font-weight: 500;
 }
-.create-bio-button-set a{
+.create-bio-button-set a {
   text-decoration: none;
 }
 /* create bio end */
