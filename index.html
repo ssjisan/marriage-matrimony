@@ -163,86 +163,61 @@
       </div>
     </div>
     <!-- Hero Section End -->
-
-    <!-- Search From Start -->
-    <div style="background-color: #f5f5f5; padding: 20px">
-      <div class="row justify-content-center align-item-center">
-        <div
-          class="col-12 col-sm-8 col-md-6 col-lg-4"
-          style="margin-bottom: 20px"
-        >
-          <div
-            class="card container"
-            style="
-              padding: 20px;
-              background-color: #ed5565;
-              border-radius: 10px;
-              box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
-                0 12px 17px 2px rgba(0, 0, 0, 0.14),
-                0 5px 22px 4px rgba(0, 0, 0, 0.12);
-            "
-          >
-            <div
-              class="row justify-content-md-center"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যেমন বায়োডাটা খুঁজছি</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সব বায়োডাটা</option>
-                  <option value="2">পাত্রের বায়োডাটা</option>
-                  <option value="3">পাত্রীর বায়োডাটা</option>
-                </select>
-              </div>
+    <!-- Search Start -->
+    <div class="container">
+      <div class="filter">
+        <div class="row" style="align-items: flex-end; padding:64px">
+          <div class="col-md-3">
+            <div class="filter-fields">
+              <p class="filter-level">Looking For</p>
+              <select class="form-select select-field">
+                <option value="1" selected>All</option>
+                <option value="2">Groom's Profile</option>
+                <option value="3">Bride's Profile</option>
+              </select>
             </div>
-            <div
-              class="row justify-content-md-center"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যেমন বৈবাহিক অবস্থা খুঁজছি</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সকল ধরনের</option>
-                  <option value="2">বিবাহিত</option>
-                  <option value="3">অবিবাহিত</option>
-                  <option value="2">ডিভোর্সী</option>
-                  <option value="3">বিপত্নীক</option>
-                  <option value="3">বিধবা</option>
-                </select>
-              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="filter-fields">
+              <p class="filter-level">Marital Status</p>
+              <select class="form-select select-field">
+                <option value="1" selected>সকল জেলা</option>
+                <option value="2">ঢাকা</option>
+                <option value="3">চট্টগ্রাম</option>
+                <option value="2">সিলেট</option>
+                <option value="3">ময়মনসিংহ</option>
+                <option value="3">বরিশাল</option>
+              </select>
             </div>
-            <div
-              class="row justify-content-md-center"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যে জেলায় খুঁজছেন</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সকল জেলা</option>
-                  <option value="2">ঢাকা</option>
-                  <option value="3">চট্টগ্রাম</option>
-                  <option value="2">সিলেট</option>
-                  <option value="3">ময়মনসিংহ</option>
-                  <option value="3">বরিশাল</option>
-                </select>
-              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="filter-fields">
+              <p class="filter-level">Location</p>
+              <select class="form-select select-field">
+                <option value="1" selected>সকল জেলা</option>
+                <option value="2">ঢাকা</option>
+                <option value="3">চট্টগ্রাম</option>
+                <option value="2">সিলেট</option>
+                <option value="3">ময়মনসিংহ</option>
+                <option value="3">বরিশাল</option>
+              </select>
             </div>
-            <div style="text-align: right; padding-bottom: 20px">
-              <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
+          </div>
+          <div class="col-md-3">
+            <div class="search-container">
+              <a href="./otherPages/filter.html"
+                ><button class="search-button">
+                  <img
+                    src="Assets/Images/logos-icons/icons/search-button.svg"
+                  />Search
+                </button></a
               >
-                <a class="bioDataButton" href="./otherPages/filter.html">
-                  <i class="fas fa-search"></i> বায়োডাটা খুঁজুন</a
-                >
-              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Search From End -->
+    <!-- Search End -->
     <!-- How it works Start -->
     <div class="container">
       <div class="how-it-work">
@@ -357,6 +332,7 @@
           <img
             src="Assets/Images/home-page/create-bio/commitment.png"
             alt="commitment"
+            width="100%"
           />
         </div>
       </div>

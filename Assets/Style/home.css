@@ -55,6 +55,58 @@
 .arrow {
   cursor: pointer;
 }
+/* Serach Start */
+.filter {
+  margin-top: 128px;
+  margin-bottom: 64px;
+  box-shadow: -8px 8px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+}
+.filter-fields {
+  display: flex;
+  flex-direction: column;
+}
+.filter-level {
+  font-weight: 600;
+  font-size: 16px;
+  color: #23262f;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container a {
+  text-decoration: none;
+}
+.search-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  width: 180px;
+  height: 44px;
+  background: linear-gradient(90deg, #f1458d 0%, #ec0a52 100%);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: 1px solid #f1458d;
+  border-radius: 4px;
+}
+.select-field:focus {
+  box-shadow: none;
+}
+.select-field option:checked {
+  background-color: red;
+  color: white;
+}
+.form-select option:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+/* Search End */
 /******* How-it-work start *******/
 .how-it-work {
   padding-top: 64px;
@@ -154,7 +206,6 @@
   color: #23262f;
 }
 .process-subtitle {
-  width: 245px;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -308,34 +359,33 @@
   text-align: center;
   color: #23262f;
 }
-.testimonial-slider-section{
+.testimonial-slider-section {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding-top: 64px;
 }
-.testimonial-context{
+.testimonial-context {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 16px;
-gap: 16px;
-
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
 }
-.testimonial-author{
+.testimonial-author {
   font-weight: 600;
   font-size: 20px;
-  color: #23262F;
+  color: #23262f;
 }
-.testimonial-message{
+.testimonial-message {
   font-weight: 400;
   font-size: 16px;
-  color: #777E90;
+  color: #777e90;
 }
-.testimonial-date{
+.testimonial-date {
   font-weight: 400;
   font-size: 18px;
-  color: #23262F;
+  color: #23262f;
 }
 /* Testimonial End */
 /* Footer Start */
