@@ -14,244 +14,113 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Document</title>
+    <!-------------------------------------- Style Sheet Start -------------------------------------->
+    <link rel="stylesheet" href="../Assets/Style/navbar.css">
+    <link rel="stylesheet" href="../Assets/Style/filter.css">
+    <!-------------------------------------- Style Sheet End -------------------------------------->
+    <link
+    rel="icon"
+    type="image/x-icon"
+    href="../Assets/Images/logos-icons/favicon.ico"
+  />
+    <title>Other half | Filter</title>
   </head>
   <body>
     <!-- Menu Start -->
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="navigation">
+      <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid container">
           <img
-            src="../Images/logo.png"
+            src="../Assets/Images/logos-icons/logo.svg"
             alt="logo"
-            width="200px"
-            ,
-            height="75px"
+            height="40px"
           />
           <button
-            class="navbar-toggler"
-            type="button"
+            class="navbar-toggler shadow-none"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="../index.html">হোম</a>
+                <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./aboutUs.html">আমাদের সম্পর্কে</a>
+                <a class="nav-link" href="../otherPages/aboutUs.html"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./blog.html">ব্লগ</a>
+                <a class="nav-link" href="./otherPages/blog.html">FaQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./fnq.html">জিজ্ঞাসা</a>
+                <a class="nav-link" href="../otherPages/blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contact.html">যোগাযোগ</a>
+                <a class="nav-link" href="../otherPages/fnq.html">Contact</a>
               </li>
             </ul>
-            <button type="button" class="btn btn-success">Login</button>
+            <div class="nav-button-set">
+              <button type="button" class="nav-button-login">
+                <img src="../Assets/Images/logos-icons/icons/profile.svg" />Login
+              </button>
+              <button type="button" class="nav-button-resigter">
+                Register for free
+              </button>
+            </div>
           </div>
         </div>
       </nav>
     </div>
     <!-- Menu End -->
    
-    <!-- Search form Start-->
-    <div class="container">
-      <div class="row justify-content-center align-item-center">
-        <div
-          class="col-12 col-sm-8 col-md-6 col-lg-4"
-          style="margin: 20px 0px 20px 0px"
-        >
-          <div
-            class="card container"
-            style="
-              padding: 20px;
-              background-color: #ed5565;
-              border-radius: 10px;
-              box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
-                0 12px 17px 2px rgba(0, 0, 0, 0.14),
-                0 5px 22px 4px rgba(0, 0, 0, 0.12);
-            "
-          >
-            <div
-              class="row justify-content-space-around"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যেমন বায়োডাটা খুঁজছি</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সব বায়োডাটা</option>
-                  <option value="2">পাত্রের বায়োডাটা</option>
-                  <option value="3">পাত্রীর বায়োডাটা</option>
-                </select>
+    <!-- Filter Start -->
+    <div class="filter">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-2">
+          <div class="bio-card">
+            <div class="upper">
+              <div class="image-container">
+                <img src="../Assets/Images/filter/user01.png" alt="bio-id"/>
+              </div>
+              <div class="basic-info">
+                <p class="name">Rasel Sikder</p>
+                <p class="id">M-220110</p>
+                <p class="profession">Engineer</p>
               </div>
             </div>
-            <div
-              class="row justify-content-space-around"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যেমন বৈবাহিক অবস্থা খুঁজছি</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সকল ধরনের</option>
-                  <option value="2">বিবাহিত</option>
-                  <option value="3">অবিবাহিত</option>
-                  <option value="2">ডিভোর্সী</option>
-                  <option value="3">বিপত্নীক</option>
-                  <option value="3">বিধবা</option>
-                </select>
+            <div class="middle">
+              <div class="first-info">
+                <p class="info-title">Height</p>
+                <p>5'11''</p>
+              </div>
+              <div class="second-info">
+                <p class="info-title">Date of birth</p>
+                <p class="info-title">19 December,1992</p>
               </div>
             </div>
-            <div
-              class="row justify-content-space-around"
-              style="padding-bottom: 20px"
-            >
-              <div class="col-sm col-lg-6">যে জেলায় খুঁজছেন</div>
-              <div class="col-sm col-lg-6">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1" selected>সকল জেলা</option>
-                  <option value="2">ঢাকা</option>
-                  <option value="3">চট্টগ্রাম</option>
-                  <option value="2">সিলেট</option>
-                  <option value="3">ময়মনসিংহ</option>
-                  <option value="3">বরিশাল</option>
-                </select>
-              </div>
-            </div>
-            <div style="text-align: right; padding-bottom: 20px">
-              <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
-              >
-                <a class="bioDataButton" href="#">সম্পূর্ন বায়োডাটা</a>
-              </button>
+            <div class="bottom">
+              <button>See full profile</button>
             </div>
           </div>
         </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
       </div>
     </div>
-    <!-- Seacrch form End --->
-    <div class="fnqTitle container">
-      <h3>বায়োডাটা সমূহ
-      </h3>
-  </div>
-    <!-- Blog Start-->
-    <div class="container" >
-      <div class="row" >
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-          <div class="feature-card bioCard">
-            <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-            <h3>নাম</h3>
-            <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-            <p>পেশাঃ ছাত্রী</p>
-            <p>বয়সঃ ২৬ </p>
-            <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
-              >
-                <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-              </button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-          <div class="feature-card bioCard">
-            <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-            <h3>নাম</h3>
-            <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-            <p>পেশাঃ ছাত্রী</p>
-            <p>বয়সঃ ২৬ </p>
-            <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
-              >
-                <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-              </button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-          <div class="feature-card bioCard">
-            <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-            <h3>নাম</h3>
-            <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-            <p>পেশাঃ ছাত্রী</p>
-            <p>বয়সঃ ২৬ </p>
-            <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
-              >
-                <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-              </button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-          <div class="feature-card bioCard">
-            <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-            <h3>নাম</h3>
-            <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-            <p>পেশাঃ ছাত্রী</p>
-            <p>বয়সঃ ২৬ </p>
-            <button
-                type="button"
-                class="btn btn-success"
-                style="font-weight: bold"
-              >
-                <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-              </button>
-          </div>
-          </div>
-          <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-            <div class="feature-card bioCard">
-              <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-              <h3>নাম</h3>
-              <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-              <p>পেশাঃ ছাত্রী</p>
-              <p>বয়সঃ ২৬ </p>
-              <button
-                  type="button"
-                  class="btn btn-success"
-                  style="font-weight: bold"
-                >
-                  <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-                </button>
-            </div>
-            </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4" style="margin-bottom: 20px;">
-              <div class="feature-card bioCard">
-                <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="">
-                <h3>নাম</h3>
-                <p>বৈবাহিক অবস্থাঃ অবিবাহিত</p> 
-                <p>পেশাঃ ছাত্রী</p>
-                <p>বয়সঃ ২৬ </p>
-                <button
-                    type="button"
-                    class="btn btn-success"
-                    style="font-weight: bold"
-                  >
-                    <a class="bioDataButton" href="./fullBioData.html">সম্পূর্ন বায়োডাটা</a>
-                  </button>
-              </div>
-              </div>
-        </div>
-      </div>
-    </div>
-    <!-- Blog End --->
+    <!-- Filter End -->
     <!-- Footer Start -->
     <div class="footer-basic">
       <footer>
@@ -288,5 +157,8 @@
       crossorigin="anonymous"
     ></script>
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
+    <!-- Start -->
+    <script src="../Assets/Plugin/navbar.js"></script>
+    <!-- End -->
   </body>
 </html>
