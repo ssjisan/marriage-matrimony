@@ -55,7 +55,7 @@
 .arrow {
   cursor: pointer;
 }
-/* Serach Start */
+/********************************************************** Serach Start **********************************************************/
 .filter {
   margin-top: 128px;
   margin-bottom: 64px;
@@ -100,14 +100,17 @@
   box-shadow: none;
 }
 .select-field option:checked {
-  background-color: red;
+  background-color: #f1458d;
   color: white;
 }
-.form-select option:hover {
+
+.form-select option:focus {
   background-color: rgba(255, 0, 0, 0.2);
 }
-/* Search End */
-/******* How-it-work start *******/
+/********************************************************** Search End **********************************************************/
+
+
+/********************************************************** How-it-work start **********************************************************/
 .how-it-work {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -211,8 +214,10 @@
   text-align: center;
   color: #777e90;
 }
-/******* How-it-work start *******/
-/* Create-bio start */
+/********************************************************** How-it-work End **********************************************************/
+
+
+/********************************************************** Create-bio start **********************************************************/
 .create-bio {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -276,8 +281,10 @@
 .create-bio-button-set a {
   text-decoration: none;
 }
-/* create bio end */
-/* Matrix Start */
+/********************************************************** create bio end **********************************************************/
+
+
+/********************************************************** Matrix Start **********************************************************/
 .matrix {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -340,9 +347,10 @@
   justify-content: center;
   align-items: center;
 }
-/* Matrix End */
+/********************************************************** Matrix End **********************************************************/
 
-/* Testimonial Start */
+
+/********************************************************** Testimonial Start **********************************************************/
 .testomonial {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -387,8 +395,10 @@
   font-size: 18px;
   color: #23262f;
 }
-/* Testimonial End */
-/* Footer Start */
+/********************************************************** Testimonial End **********************************************************/
+
+
+/********************************************************** Footer Start **********************************************************/
 .footer {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -413,7 +423,9 @@
   text-align: center;
   color: #475467;
 }
-/* Footer End */
+/********************************************************** Footer End **********************************************************/
+
+
 /********************  Media Queries Start  ********************/
 @media screen and (max-width: 1400px) {
 }
