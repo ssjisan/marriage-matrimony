@@ -1,27 +1,72 @@
-.bio-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 16px;
-    gap: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+.image-container{
     border-radius: 10px;
+    overflow: hidden;
 }
-.upper{
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 16px;
+.upper {
+  padding: 0px;
+  gap: 16px;
 }
-.basic-info{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
+.basic-info {
+  display: flex;
+  flex-direction: column;
 }
-.name{
-    font-weight: 500;
-font-size: 16px;
-color: #23262F;
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #23262f;
+}
+.id {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262f;
+  opacity: 0.32;
+}
+.location {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #f1458d;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.first-info {
+  width: 100%;
+}
+.second-info {
+  width: 100%;
+}
+.info-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.49);
+}
+.info-value {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #23262f;
+}
+.bottom{
+    width: 100%;
 }
