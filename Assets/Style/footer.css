@@ -1,0 +1,24 @@
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .company-details {
+    max-width: 831px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #475467;
+  }
+  .footer-copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #475467;
+  }
