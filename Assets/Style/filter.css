@@ -19,10 +19,13 @@
   font-size: 14px;
   line-height: 21px;
 }
-.checkbox-container{
+.checkbox-container {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+}
+.form-check-input {
+  box-shadow: none;
 }
 .filter {
   margin-top: 64px;
