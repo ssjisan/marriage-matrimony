@@ -1,8 +1,35 @@
-.filter{
-    margin-top:64px;
-    margin-bottom: 64px;
+.filter-options {
+  padding: 24px;
+  border-right: 1px solid #cbcbcb;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.title-filter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.options-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+.checkbox-container{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.filter {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 .bio-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +38,14 @@
   background: #ffffff;
   box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.04);
   border-radius: 10px;
-  margin-bottom:24px;
+  margin-bottom: 24px;
+}
+.shortlist {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  right: 16px;
 }
 .image-container {
   border-radius: 10px;
@@ -49,10 +83,10 @@
   color: #f1458d;
 }
 hr.solid {
-    width: 100%;
-    border-top: 1px solid #CBCBCB;
-  }
-  
+  width: 100%;
+  border-top: 1px solid #cbcbcb;
+}
+
 .middle {
   display: flex;
   justify-content: space-between;
@@ -82,9 +116,9 @@ hr.solid {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap:8px
+  gap: 8px;
 }
-.shortlist {
+/* .shortlist {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -103,7 +137,7 @@ hr.solid {
   align-items: center;
   text-align: center;
   color: #f1458d;
-}
+} */
 .profile {
   display: flex;
   flex-direction: row;
