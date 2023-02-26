@@ -1,8 +1,6 @@
 .filter-options {
   padding: 24px;
   border-right: 1px solid #cbcbcb;
-  height: 100vh;
-  overflow-y: hidden;
 }
 .title-filter {
   font-weight: 700;
@@ -24,9 +22,17 @@
   gap: 24px;
   flex-wrap: wrap;
 }
+.form-check {
+  width: 150px;
+}
 .form-check-input {
   box-shadow: none;
 }
+input[type="checkbox"].form-check-input:checked {
+  background-color: #f1458d;
+  border-color: #f1458d;
+}
+
 .filter {
   margin-top: 64px;
   margin-bottom: 64px;
