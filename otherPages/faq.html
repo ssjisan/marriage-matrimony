@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------------------------------- Style Sheet Start -------------------------------------->
+    <link rel="stylesheet" href="../Assets/Style/navbar.css" />
+    <link rel="stylesheet" href="../Assets/Style/faq.css" />
+    <link rel="stylesheet" href="../Assets/Style/footer.css" />
+    <!-------------------------------------- Style Sheet End -------------------------------------->
+    <title>Other half | FaQ</title>
+  </head>
+  <body>
+    <!-- Menu Start -->
+    <div id="navigation">
+      <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid container">
+          <img
+            src="../Assets/Images/logos-icons/logo.svg"
+            alt="logo"
+            height="40px"
+          />
+          <button
+            class="navbar-toggler shadow-none"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./otherPages/aboutUs.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./otherPages/faq.html">FaQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./otherPages/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./otherPages/fnq.html">Contact</a>
+              </li>
+            </ul>
+            <div class="nav-button-set">
+              <button type="button" class="nav-button-login">
+                <img
+                  src="../Assets/Images/logos-icons/icons/profile.svg"
+                />Login
+              </button>
+              <button type="button" class="nav-button-resigter">
+                Register for free
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Menu End -->
+    <!-- FaQ Start -->
+    <div class="container">
+      <div class="faq-container">
+        <div class="faq-title">Frequently Asked Question</div>
+        <div class="row" style="justify-content: center">
+          <div class="col-md-8">
+            <div class="accordion " id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the showing
+                    and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also
+                    worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse "
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the showing
+                    and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also
+                    worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed shadow-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the showing
+                    and hiding via CSS transitions. You can modify any of this
+                    with custom CSS or overriding our default variables. It's also
+                    worth noting that just about any HTML can go within the
+                    <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FaQ End -->
+    <!-- Footer Start -->
+    <div class="container">
+      <div class="footer">
+        <img src="../Assets//Images/logos-icons/logo.svg" alt="other half" />
+        <p class="company-details">
+          Find your perfect match in Bangladesh with Other Half. We're your
+          trusted partner for matchmaking, offering over 1300 carefully curated
+          biodata options. Our focus is on making the process seamless and
+          stress-free, and we take
+          <span style="text-decoration: underline"
+            ><a href="" style="color: #475467">Privacy Policies</a></span
+          >
+          and
+          <span style="text-decoration: underline"
+            ><a href="" style="color: #475467">Refund Policies</a></span
+          >
+          seriously. Count on us to help you find your soulmate.
+        </p>
+        <p class="footer-copyright">
+          © 2023 <span style="font-weight: 700">Other Half</span>. All rights
+          reserved.
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
+  </body>
+</html>
