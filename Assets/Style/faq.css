@@ -16,6 +16,12 @@ body {
   padding-bottom: 16px;
   border: none;
 }
+.accordion-button {
+    background-color: transparent;
+    font-weight: 600;
+    color: #23262f;
+  }
+  
 .accordion-button:not(.collapsed) {
   background-color: transparent;
   font-weight: 700;
