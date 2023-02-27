@@ -1,0 +1,143 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #fafbfc;
+}
+.logo {
+  margin-top: 40px;
+}
+.login-area {
+  margin-top: 164px;
+}
+.login-area {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.login-card {
+  background: #ffffff;
+  box-shadow: 0px 6px 24px rgba(173, 187, 201, 0.16);
+  border-radius: 16px;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+.header p:nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3c4151;
+  margin: auto;
+}
+.header p:nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3c4151;
+  margin: auto;
+}
+.fields {
+  padding: 0px;
+  gap: 8px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  width: 100%;
+}
+.fields p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #3c4151;
+  margin-bottom: auto;
+  text-align: left;
+}
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.forget p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #f1458d;
+  cursor: pointer;
+}
+input[type="checkbox"].form-check-input:checked {
+  background-color: #f1458d;
+  border-color: #f1458d;
+}
+.context {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6d8297;
+}
+.button-login {
+  width: 100%;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 4px;
+  width: 100%;
+  height: 48px;
+  background: #f1458d;
+  border: 1px solid #f1458d;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.form-control:focus {
+  border-color: #f1458d;
+}
+.form-check-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #3c4151;
+}
+::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a9afb7;
+}
+::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a9afb7;
+}
+::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a9afb7;
+}
