@@ -11,57 +11,80 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- Font Start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Font End -->
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../Assets/Style/navbar.css" />
+    <link rel="stylesheet" href="../Assets/Style/filter.css" />
+    <link rel="stylesheet" href="../Assets/Style/footer.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Assets/Images/logos-icons/favicon.ico"
+    />
+    <title>Other half | Blog</title>
   </head>
   <body>
     <!-- Menu Start -->
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="navigation">
+      <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid container">
           <img
-            src="../Images/logo.png"
+            src="../Assets/Images/logos-icons/logo.svg"
             alt="logo"
-            width="200px"
-            ,
-            height="75px"
+            height="40px"
           />
           <button
-            class="navbar-toggler"
-            type="button"
+            class="navbar-toggler shadow-none"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./../index.html">হোম</a>
+                <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./aboutUs.html">আমাদের সম্পর্কে</a>
+                <a class="nav-link" href="./aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">FaQ</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./blog.html">ব্লগ</a>
+                <a class="nav-link" href="./blog.html">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./fnq.html">জিজ্ঞাসা</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">যোগাযোগ</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
-            <button type="button" class="btn btn-success">Login</button>
+            <div class="nav-button-set">
+              <a class="login-button" href="./login.html">
+                <button type="button" class="nav-button-login">
+                  <img
+                    src="../Assets/Images/logos-icons/icons/profile.svg"
+                  />Login
+                </button></a
+              >
+              <a class="login-button" href="./signup.html">
+                <button type="button" class="nav-button-resigter">
+                  Register for free
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -190,23 +213,28 @@
     </div>
     <!-- Blog End --->
     <!-- Footer Start -->
-    <div class="footer-basic">
-      <footer>
-        <div class="social">
-          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-          <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
-        </div>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Home</a></li>
-          <li class="list-inline-item"><a href="#">Services</a></li>
-          <li class="list-inline-item"><a href="#">About</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Company Name © 2018</p>
-      </footer>
+    <div class="container">
+      <div class="footer">
+        <img src="../Assets//Images/logos-icons/logo.svg" alt="other half" />
+        <p class="company-details">
+          Find your perfect match in Bangladesh with Other Half. We're your
+          trusted partner for matchmaking, offering over 1300 carefully curated
+          biodata options. Our focus is on making the process seamless and
+          stress-free, and we take
+          <span style="text-decoration: underline"
+            ><a href="" style="color: #475467">Privacy Policies</a></span
+          >
+          and
+          <span style="text-decoration: underline"
+            ><a href="" style="color: #475467">Refund Policies</a></span
+          >
+          seriously. Count on us to help you find your soulmate.
+        </p>
+        <p class="footer-copyright">
+          © 2023 <span style="font-weight: 700">Other Half</span>. All rights
+          reserved.
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
@@ -225,5 +253,8 @@
       crossorigin="anonymous"
     ></script>
     <!------------------------------------------------------------- Script ---------------------------------------------------------------------------------->
+    <!-- Start -->
+    <script src="../Assets/Plugin/navbar.js"></script>
+    <!-- End -->
   </body>
 </html>

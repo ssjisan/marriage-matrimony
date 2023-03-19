@@ -1,5 +1,5 @@
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   background: #fafbfc;
 }
 .logo {
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 .header {
   display: flex;
@@ -46,9 +46,8 @@ body {
 }
 .fields {
   padding: 0px;
-  gap: 8px;
+  gap: 16px;
   display: flex;
-  gap: 8px;
   flex-direction: column;
   width: 100%;
 }
@@ -112,6 +111,9 @@ input[type="checkbox"].form-check-input:checked {
   text-align: center;
   color: #ffffff;
 }
+.form-control {
+  height: 48px;
+}
 .form-control:focus {
   border-color: #f1458d;
 }
@@ -127,17 +129,29 @@ input[type="checkbox"].form-check-input:checked {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #a9afb7;
+  color: #dbdbdb;
 }
 ::-ms-input-placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #a9afb7;
+  color: #dbdbdb;
 }
 ::-ms-input-placeholder {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #a9afb7;
+  color: #dbdbdb;
+}
+.span {
+  color: #f1458d;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
 }

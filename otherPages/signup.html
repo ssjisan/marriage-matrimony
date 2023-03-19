@@ -34,7 +34,7 @@
       type="image/x-icon"
       href="Assets/Images/logos-icons/favicon.ico"
     />
-    <title>Other Half | Login</title>
+    <title>Other Half | Sign Up</title>
   </head>
   <body>
     <div class="container">
@@ -48,8 +48,43 @@
           <div class="login-area">
             <div class="login-card">
               <div class="header">
-                <p>Login</p>
-                <p>Welcome back!</p>
+                <p>Create account</p>
+                <p>Create your account and find your life partner</p>
+              </div>
+              <div class="fields">
+                <p>Name</p>
+                <input
+                  type="email"
+                  class="form-control shadow-none"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="fields">
+                <p>Choose a gender</p>
+                <div class="radio-group">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="Male"
+                      id="Male"
+                    />
+                    <label class="form-check-label" for="Male">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="Female"
+                      id="Female"
+                    />
+                    <label class="form-check-label" for="Female">
+                      Female
+                    </label>
+                  </div>
+                </div>
               </div>
               <div class="fields">
                 <p>Email</p>
@@ -60,6 +95,14 @@
                 />
               </div>
               <div class="fields">
+                <p>Phone</p>
+                <input
+                  type="number"
+                  class="form-control shadow-none"
+                  placeholder="Phone number"
+                />
+              </div>
+              <div class="fields">
                 <p>Password</p>
                 <input
                   type="password"
@@ -67,33 +110,22 @@
                   placeholder="Password"
                 />
               </div>
-              <div class="remember-forget">
-                <div class="form-check">
-                  <input
-                    class="form-check-input shadow-none"
-                    type="checkbox"
-                    value=""
-                    id="Female"
-                  />
-                  <label class="form-check-label" for="Female">
-                    Remember password
-                  </label>
-                </div>
-                <div class="forget">
-                  <p>Forget password?</p>
-                </div>
+              <div class="fields">
+                <p>Confirm Password</p>
+                <input
+                  type="password"
+                  class="form-control shadow-none"
+                  placeholder="Repate your password"
+                />
               </div>
+
               <div class="button-login">
-                <button type="button" class="login">Login</button>
+                <button type="button" class="login">Create Account</button>
               </div>
               <div class="signin">
                 <p>
-                  Don't have an account?
-                  <span
-                    ><a href="./signup.html" class="span"
-                      >Create Account</a
-                    ></span
-                  >
+                  Already have an account?
+                  <span><a class="span" href="./login.html">Sign in</a></span>
                 </p>
               </div>
             </div>

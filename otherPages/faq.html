@@ -11,12 +11,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap"
-      rel="stylesheet"
-    />
+   <!-- Font Start -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+     rel="stylesheet"
+   />
+   <!-- Font End -->
     <!-------------------------------------- Style Sheet Start -------------------------------------->
     <link rel="stylesheet" href="../Assets/Style/navbar.css" />
     <link rel="stylesheet" href="../Assets/Style/faq.css" />
@@ -52,9 +54,7 @@
                 <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./aboutUs.html"
-                  >About Us</a
-                >
+                <a class="nav-link" href="./aboutUs.html">About Us</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="./faq.html">FaQ</a>
@@ -67,14 +67,18 @@
               </li>
             </ul>
             <div class="nav-button-set">
-              <button type="button" class="nav-button-login">
-                <img
-                  src="../Assets/Images/logos-icons/icons/profile.svg"
-                />Login
-              </button>
-              <button type="button" class="nav-button-resigter">
-                Register for free
-              </button>
+              <a class="login-button" href="./login.html">
+                <button type="button" class="nav-button-login">
+                  <img
+                    src="../Assets/Images/logos-icons/icons/profile.svg"
+                  />Login
+                </button></a
+              >
+              <a class="login-button" href="./signup.html">
+                <button type="button" class="nav-button-resigter">
+                  Register for free
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -87,7 +91,7 @@
         <div class="faq-title">Frequently Asked Question</div>
         <div class="row" style="justify-content: center">
           <div class="col-md-8">
-            <div class="accordion " id="accordionExample">
+            <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                   <button
@@ -111,12 +115,12 @@
                     <strong>This is the first item's accordion body.</strong> It
                     is shown by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the showing
-                    and hiding via CSS transitions. You can modify any of this
-                    with custom CSS or overriding our default variables. It's also
-                    worth noting that just about any HTML can go within the
-                    <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
                   </div>
                 </div>
               </div>
@@ -135,20 +139,20 @@
                 </h2>
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse "
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the showing
-                    and hiding via CSS transitions. You can modify any of this
-                    with custom CSS or overriding our default variables. It's also
-                    worth noting that just about any HTML can go within the
-                    <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
                   </div>
                 </div>
               </div>
@@ -175,12 +179,12 @@
                     <strong>This is the third item's accordion body.</strong> It
                     is hidden by default, until the collapse plugin adds the
                     appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the showing
-                    and hiding via CSS transitions. You can modify any of this
-                    with custom CSS or overriding our default variables. It's also
-                    worth noting that just about any HTML can go within the
-                    <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
                   </div>
                 </div>
               </div>

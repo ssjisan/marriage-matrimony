@@ -1,5 +1,5 @@
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .navbar-toggler {
   border: none;
@@ -96,6 +96,9 @@ body {
   background: #e41169;
   border: 1px solid #e41169;
   transition: 0.5s ease-in-out;
+}
+.login-button {
+  text-decoration: none;
 }
 /********************  Media Queries Start  ********************/
 @media screen and (max-width: 1400px) {
