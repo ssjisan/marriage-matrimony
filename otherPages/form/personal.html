@@ -10,10 +10,9 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
     <title>Document</title>
 </head>
@@ -72,15 +71,15 @@
         <div class="row">
             <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
                 <div class="breadcrumb">
-                  <a href="./name.html"class="breadcrumb-item"  onClick=formField() id="one">নাম</a>
-                  <a href="./generalInfo.html"class="breadcrumb-item"  onClick=formField() id="two" >সাধারন তথ্য</a>
-                  <a href="./address.html"class="breadcrumb-item"  onClick=formField() id="three" >ঠিকানা</a>
-                  <a href="./education.html"class="breadcrumb-item"  onClick=formField() id="four" >শিক্ষাগত যোগ্যতা</a>
-                  <a href="./familyInfo.html"class="breadcrumb-item"  onClick=formField() id="five" >পারিবারিক তথ্য</a>
-                  <a href="./personalInfo.html"class="breadcrumb-item"  onClick=formField() id="six" >ব্যক্তিগত তথ্য</a>
-                  <a href="./marriageInfo.html"class="breadcrumb-item"  onClick=formField() id="seven" >বিয়ে সংক্রান্ত তথ্য</a>
-                  <a href="./lifePartner.html"class="breadcrumb-item"  onClick=formField() id="night" >জীবন সঙ্গীর সম্পর্কে</a>
-                  <a href="./contact.html"class="breadcrumb-item"  onClick=formField() id="ten" >যোগাযোগ</a>
+                  <a href="./name.html"class="breadcrumb-item"   id="one">নাম</a>
+                  <a href="./generalInfo.html"class="breadcrumb-item"   id="two" >সাধারন তথ্য</a>
+                  <a href="./address.html"class="breadcrumb-item"   id="three" >ঠিকানা</a>
+                  <a href="./education.html"class="breadcrumb-item"   id="four" >শিক্ষাগত যোগ্যতা</a>
+                  <a href="./familyInfo.html"class="breadcrumb-item"   id="five" >পারিবারিক তথ্য</a>
+                  <a href="./personalInfo.html"class="breadcrumb-item"   id="six" >ব্যক্তিগত তথ্য</a>
+                  <a href="./marriageInfo.html"class="breadcrumb-item"   id="seven" >বিয়ে সংক্রান্ত তথ্য</a>
+                  <a href="./lifePartner.html"class="breadcrumb-item"   id="night" >জীবন সঙ্গীর সম্পর্কে</a>
+                  <a href="./contact.html"class="breadcrumb-item"   id="ten" >যোগাযোগ</a>
                 </div>
               </nav>
         </div>
@@ -103,87 +102,17 @@
       >
       <div class="col-sm">
         <div class="form-group">
-          <label for="exampleInputEmail1">বায়োডাটার ধরন</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1">পাত্রের বায়োডাটা</option>
-            <option value="2">পাত্রীর বায়োডাটা</option>
-          </select>
+          <label for="exampleInputEmail1">নিজের সম্পর্কে লিখুন *</label>
+          <input type="email" class="form-control" id="floatingInput" placeholder="অল্প কথায় নিজের শখ, পছন্দ, অপছন্দ, ভালোলাগা, খারাপ লাগা জানিয়ে লিখুন">
         </div>
         <br/>
-        <div class="form-group">
-          <label for="exampleInputEmail1">বৈবাহিক অবস্থা *</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1">বিবাহিত</option>
-            <option value="2">অবিবাহিত</option>
-            <option value="3">ডিভোর্সী</option> 
-            <option value="4">বিপত্নীক</option>
-            <option value="5">বিধবা</option>
-          </select>
-        </div>
-        <br/>
-        <div class="form-group">
-          <label for="exampleInputEmail1">জন্মসন*</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1">1960-1970</option>
-            <option value="2">1971-1980</option>
-            <option value="3">1981-1990</option> 
-            <option value="4">1991-2000</option>
-            <option value="5">2001-2010</option>
-            <option value="6">2011-2020</option>
-            <option value="7">2021</option>
-          </select>
-        </div>
-        <br/>
-        <div class="form-group">
-          <label for="exampleInputEmail1">উচ্চতা</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1" selected>4'1''-4'5''</option>
-            <option value="2">4'6''-5'0''</option>
-            <option value="3">5'1''-5'5''</option> 
-            <option value="4">5'6''-6'0''</option>
-            <option value="5">6'1''-6'6''</option>
-          </select>
-        </div>
-        <br/>
-        <div class="form-group">
-          <label for="exampleInputEmail1">ওজন</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1" selected>45-55 KG</option>
-            <option value="2">56-65 KG</option>
-            <option value="3">66-75 KG</option>
-            <option value="4">76-85 KG</option> 
-            <option value="5">86-95 KG</option>
-            <option value="6">96-100</option>
-          </select>
-        </div>
-        <br/>
-        <div class="form-group">
-          <label for="exampleInputEmail1">রক্তের গ্রুপ *</label>
-          <select class="form-select" aria-label="Default select example">
-            <option value="1" selected>জানা নেই</option>
-            <option value="2" >(A+)</option>
-            <option value="3"> (A-)</option>
-            <option value="4">(B+)</option>
-            <option value="5">(B-)</option> 
-            <option value="6">(O+)</option>
-            <option value="7">(O-)</option>
-            <option value="8">(AB+)</option>
-            <option value="9">(AB-)</option>
-          </select>
-        </div>
-        </div>
-        <br />
-        <div class="form-group">
-          <label for="exampleInputEmail1">পেশা *</label>
-          <input type="email" class="form-control" id="floatingInput" placeholder="পদবী, প্রতিষ্ঠানের নাম">
-        </div>
-        <br/>
-          
-            <a href="./address.html"><button
-              type="button"
-              class="btn btn-info"
-            >save changes   </button></a> 
         
+          <br/>
+            <a href="./marriageInfo.html"><button
+                type="button"
+                class="btn btn-info"
+              >save changes </button></a> 
+          
         </form>
       </div>
         </div>

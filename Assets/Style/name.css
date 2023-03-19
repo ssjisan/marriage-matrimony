@@ -1,0 +1,101 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.form-container {
+  margin-top: 64px;
+}
+.title h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+hr.solid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #d7d7d7;
+}
+.form-field {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  width: 140px;
+  height: 140px;
+  position: relative;
+}
+.image-container img {
+  width: 120px;
+  height: 120px;
+}
+.edit-container {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}
+.edit-container img {
+  width: 16px;
+  height: 16px;
+}
+.input-fields {
+  margin-top: 40px;
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.input-fields input {
+  width: 280px;
+  height: 40px;
+}
+.input-level {
+  font-weight: 600;
+  font-size: 16px;
+  color: #23262f;
+  margin-bottom: 8px;
+}
+.button-set {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+}
+.cancel-button {
+  padding: 8px 20px;
+  width: 88px;
+  height: 37px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.save-button {
+  padding: 8px 20px;
+  height: 37px;
+  background: #f1458d;
+  border: 1px solid #f1458d;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.form-control {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #d4d7e5;
+}
